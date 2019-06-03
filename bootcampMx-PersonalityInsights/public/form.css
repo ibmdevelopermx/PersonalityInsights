@@ -1,0 +1,56 @@
+body
+{
+    padding-top: 5%;
+    margin: 0;
+    background: rgb(52, 53, 53);
+
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color:#03C4EB;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+
+    background-color: #03C4EB;
+
+}
+
+div {
+
+    border-radius: 5px;
+
+    padding: 20px;
+}
+
+.lab
+{
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    }
+
+.logos
+{
+    padding-left: 20px;
+   height: 15%;
+   width: 15%;
+}

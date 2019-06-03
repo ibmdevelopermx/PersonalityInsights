@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+        <link rel="stylesheet" type="text/css" href="/form.css">
+        <link rel="stylesheet" type="text/css" href="/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+
+		<head>
+		  <meta charset="UTF-8">
+</head>
+<body>
+
+
+        <img class="logos" src="/img/cc.png" alt="Imperial">
+<div>
+  <table>
+        <thead>
+          <tr>
+              <th>personalidad</th>
+              <th>Porcentaje</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td><%= au %></td>
+            <td><%= Math.floor(aup * 100) + "%" %></td>
+
+          </tr>
+          <tr>
+            <td><%= inar%></td>
+            <td><%= Math.floor(inarp * 100) + "%" %></td>
+          </tr>
+          <tr>
+            <td><%= emo%></td>
+            <td><%= Math.floor(emoP * 100) + "%"%></td>
+          </tr>
+          <tr>
+            <td><%= ima%></td>
+            <td><%= Math.floor(imaP * 100) + "%"%></td>
+          </tr>
+          <tr>
+            <td><%= inte%></td>
+            <td><%=  Math.floor(intep * 100) + "%"%></td>
+          </tr>
+          </tr>
+        </tbody>
+      </table>
+
+</div>
+
+</body>
+</html>
