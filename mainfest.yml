@@ -1,9 +1,0 @@
----
-applications:
-- path: .
-  memory: 256M
-  instances: 1
-  name: Personality
-  disk_quota: 1024M
-  routes:
-  - route: bootcampmx-personality.mybluemix.net
