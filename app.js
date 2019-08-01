@@ -12,8 +12,8 @@ var Estructurador = require('./Estructurador');
 //set IBM cloud credentials in this section
 var personalityInsights = new PersonalityInsightsV3({
   version_date: '2017-10-13',
-  username: 'apikey',
-  password: 'sespzkgaTh0V6Sp4ht5PD5f63b3AG7BF_aFwJXo3Q_9s'
+  username: '',
+  password: ''
 });
 
 var urlencodedParser = bodyParser.urlencoded({ extended: false });
